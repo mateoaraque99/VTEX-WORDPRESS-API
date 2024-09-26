@@ -2,6 +2,8 @@ from flask import Flask, request, jsonify
 import requests
 import pandas as pd
 
+print("Procesando..")
+
 app = Flask(__name__)
 
 # Configuración de las APIs
